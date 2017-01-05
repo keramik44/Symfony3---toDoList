@@ -1,0 +1,8 @@
+
+parameters:
+
+services:
+
+      app.ToDoList:
+        class: AppBundle\Utils\ToDoList
+        arguments: ['@doctrine.orm.entity_manager']
