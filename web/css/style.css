@@ -1,0 +1,9 @@
+body {
+  margin: 0px;
+  padding: 0px; }
+
+.flex {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }

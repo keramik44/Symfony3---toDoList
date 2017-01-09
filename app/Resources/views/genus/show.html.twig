@@ -1,0 +1,15 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Genos!{% endblock %}
+
+{% block body %}
+  <h1>The Genus fsdf {{ name }}</h1>
+
+  {{dump()}}
+
+  <ul>
+    {% for note in notes %}
+      <li>{{note}}</li>
+    {% endfor %}
+  </ul>
+{% endblock %}
